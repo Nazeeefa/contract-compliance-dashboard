@@ -7,7 +7,7 @@ POC AI contract compliance dashboard with:
 ## Run backend
 
 ```bash
-cd /home/runner/work/contract-compliance-dashboard/contract-compliance-dashboard/backend
+cd backend
 python -m pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
@@ -15,7 +15,7 @@ uvicorn app.main:app --reload
 ## Run frontend
 
 ```bash
-cd /home/runner/work/contract-compliance-dashboard/contract-compliance-dashboard/frontend
+cd frontend
 npm install
 npm run dev
 ```
@@ -23,6 +23,6 @@ npm run dev
 ## Test
 
 ```bash
-cd /home/runner/work/contract-compliance-dashboard/contract-compliance-dashboard/backend
+cd backend
 pytest -q
 ```
