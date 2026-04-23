@@ -4,6 +4,10 @@ POC AI contract compliance dashboard with:
 - Frontend: React + TypeScript + Tailwind
 - Backend: FastAPI
 
+## Dashboard
+
+https://nazeeefa.github.io/contract-compliance-dashboard/
+
 ## Run backend
 
 ```bash
